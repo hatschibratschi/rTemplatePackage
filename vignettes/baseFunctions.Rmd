@@ -1,0 +1,31 @@
+---
+title: "Base functions"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{baseFunctions}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+load the library `rTemplatePackage`
+
+```{r setup}
+library(rTemplatePackage)
+```
+
+# hello
+
+Just get the value of the function.
+
+```{r helloFunction}
+r = hello()
+print(r)
+```
+

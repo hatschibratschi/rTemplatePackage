@@ -1,0 +1,2 @@
+library(rTemplatePackage)
+hello()
